@@ -11,7 +11,7 @@ You may then call `gtmEvent(...)` to broadcast an event to GA. `gtmEvent()` roug
 ### Usage Options
 
 ```js
-gtmEvent(eventCategory, eventAction [, eventLabel [, eventValue, [, additionalArguments]])
+gtmEvent(eventCategory, eventAction [, eventLabel [, eventValue, [, additionalArguments]]])
 ```
 
 ```js
@@ -64,7 +64,7 @@ Those should be setup as follows:
 
 As a whole your macro pane should include the following:
 
-![Macros Example](https://raw.githubusercontent.com/nquinlan/gtm-custom-events/master/images/macro.png)
+![Macros Example](https://raw.githubusercontent.com/nquinlan/gtm-custom-events/master/images/macros.png)
 
 ### Rule
 You must further setup a rule to be triggered at the event `customEvent`, as such:
